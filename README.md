@@ -6,5 +6,5 @@
 
 ### 1️⃣ Environment Setup
 - Installed JDK and configured JAVA_HOME
-- Installed IntelliJ / VS Code editor
+- Installed eclipse / VS Code editor
 - Verified Java installation using:
