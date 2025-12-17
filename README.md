@@ -8,3 +8,7 @@
 - Installed JDK and configured JAVA_HOME
 - Installed eclipse / VS Code editor
 - Verified Java installation using:
+### 2️⃣ Git & GitHub Setup
+- Installed Git
+- Configured username and email
+
