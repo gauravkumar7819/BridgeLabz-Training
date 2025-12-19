@@ -1,5 +1,5 @@
 # BridgeLabz-Training  Day 1 Tasks
-## 📅 Date: 16/12/2025
+## 📅 Date: 18/12/2025
 ## 💻 What I Learned  
 - 🔹 Overview of the .NET ecosystem  
 - 🔹 Understanding the role of C# in .NET  
