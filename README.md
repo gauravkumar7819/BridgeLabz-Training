@@ -1,27 +1,87 @@
-# BridgeLabz-Training  Day 1 Tasks
-## 📅 Date: 18/12/2025
-## 💻 What I Learned  
-- 🔹 Overview of the .NET ecosystem  
-- 🔹 Understanding the role of C# in .NET  
-- 🔹 CLR execution model & IL workflow  
-- 🔹 Importance of clean coding standards  
----
+# 📚 **BridgeLabz Training **  
 
-## 🛠️ What I Did  
-- ✔ Installed Visual Studio + .NET SDK  
-- ✔ Created first C# console application  
-- ✔ Explored `.csproj` + project file structure  
-- ✔ Successfully executed program in IDE  
+> A reflective journal documenting my learning progress in .NET & C#.  
+> Updated daily as training continues… ✨  
 
 ---
 
-## 🎯 What’s Next  
-- ➤ Learn data types & operators in C#  
-- ➤ Practice loops + conditional statements  
-- ➤ Write small console-based programs  
-- ➤ Commit + push C# code to GitHub regularly  
+## 🏁 **Day 1 — Foundations of .NET + C# Ecosystem 🚀**  
+📅 **18 December 2025**
 
 ---
 
-### 📌 Summary  
-Day-1 provided a strong foundation of the .NET ecosystem, tools setup, and execution model. Ready to move into C# programming basics next!
+### 📘 **Overview of .NET**
+✔ Purpose of .NET and its role in modern app development  
+✔ Understanding the broader .NET ecosystem  
+
+---
+
+### 💡 **Overview of C#**
+✔ Intro to C# as an object-oriented language  
+✔ Relationship between C# and .NET platform  
+
+---
+
+### 🛠️ **Tools Setup Completed**
+- Installed + configured **Visual Studio**  
+- Installed + set up **.NET SDK v8**  
+
+---
+
+### 🔁 **C# Execution Model**
+- Source code → IL (Intermediate Language)  
+- IL executed by **CLR (Common Language Runtime)**  
+- Compiler vs Interpreter differences  
+
+---
+
+### 🕰️ **History + Best Practices**
+- Evolution timeline of C#  
+- Key practices followed:
+  - Meaningful naming conventions  
+  - Writing clean commit messages  
+
+---
+
+---
+
+## 🧠 **Day 2 — Core C# Concepts + Runtime Internals**  
+📅 **19 December 2025**
+
+---
+
+### 🔍 **C# Language Basics**
+- Built-in data types  
+- Common operators  
+- Implicit vs Explicit casting  
+
+---
+
+### 🏗️ **.NET & Runtime System Internals**
+- Overview of .NET architecture  
+- Responsibilities of:  
+  - CLR (Common Language Runtime)  
+  - CTS (Common Type System)  
+  - Managed execution  
+
+---
+
+### 🧮 **Memory + Program Execution**
+- Memory structure of a C# program  
+- Difference between Stack + Heap  
+- Object allocation workflow  
+
+---
+
+### 🔐 **Access Control**
+- Purpose of access modifiers  
+- Access levels enforce encapsulation + safety  
+
+---
+
+---
+
+## ✔ Status
+📌 **Training In Progress…**  
+More days will be added as the program continues.  
+Stay tuned! 😊  
