@@ -55,7 +55,7 @@
 - Access levels enforce encapsulation + safety  
 
 ---
-### 📌 **Task– Programming Fundamentals Practice**  
+### 📌🧠 **Day-3 Programming Fundamentals Practice**  
 📅 **Date:** *20 December 2025*
 
 #### 🔍 **Learning Goals**
