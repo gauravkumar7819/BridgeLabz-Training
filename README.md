@@ -78,6 +78,20 @@
 - Access levels enforce encapsulation + safety  
 
 ---
+### 📌 **Task 1 – Programming Fundamentals Practice**  
+📅 **Date:** *20 December 2025*
+
+#### 🔍 **Learning Goals**
+1. Study core **programming elements** used in C#  
+2. Read and compare **Java vs C#** similarities and differences  
+3. Work on **problem-solving exercises** using programming elements  
+4. Learn and revise:
+   - Operators  
+   - Data types  
+   - Access modifiers  
+
+🔗 **Level 1 & Level 2 – C# Programming Elements Solutions:**  
+https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-programming-elements
 
 ---
 
