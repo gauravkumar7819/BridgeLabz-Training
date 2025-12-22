@@ -71,6 +71,31 @@
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-programming-elements
 
 ---
+---
+
+## 🧩 **Day 4 — Visual Studio Environment + Control Flow Practice**  
+📅 **Date:** *22 December 2025*
+
+---
+
+### 📌 **Task Summary**
+
+1. Became familiar with the **Visual Studio IDE environment**
+   - Solution Explorer  
+   - Project structure  
+   - Build & Run  
+   - Debugging basics  
+
+2. Learned and practiced **C# Control Flow statements**
+   - if/else  
+   - switch  
+   - loops  
+
+3. 🔗 **Level 1 – C# Control Flow Solutions:**  
+  https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-control-flows/level1 
+
+---
+
 
 ## ✔ Status
 📌 **Training In Progress…**  
