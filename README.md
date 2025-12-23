@@ -65,6 +65,24 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 ---
 
+---
+
+## 🧩 **Day 5 — Arrays Practice in C#**  
+📅 **Date:** *22 December 2025*
+
+---
+
+### 📌 **Tasks**
+
+1. Learned and practiced **C# arrays**  
+   - Single-dimensional arrays  
+   - Multi-dimensional arrays  
+   - Array operations: traversal, insertion, deletion  
+
+2. 🔗 **Level 2 & Level 3 – C# Control Flow Solutions:**  
+https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-control-flows  
+
+---
 
 ## ✔ Status
 📌 **Training In Progress…**  
