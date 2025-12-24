@@ -68,7 +68,7 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 ---
 
 ## 🧩 **Day 5 — Arrays Practice in C#**  
-📅 **Date:** *22 December 2025*
+📅 **Date:** *23 December 2025*
 
 ---
 
@@ -83,6 +83,30 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-control-flows  
 
 ---
+---
+
+## 🧩 **Day 6 — Methods & .NET Architecture**  
+📅 **Date:** *24 December 2025*
+
+---
+
+### 📌 **Tasks**
+
+1. Learned and practiced **C# Methods**  
+   - Method declaration & invocation  
+   - Parameters: value vs reference  
+   - Return types & method overloading  
+
+2. 🔗 **Level 1 & Level 2 – C# Arrays Solutions:**  
+https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-arrays  
+
+3. Learned about **.NET Architecture**  
+   - High-level structure of .NET  
+   - CLR, CTS, BCL  
+   - Managed execution & memory management  
+
+---
+
 
 ## ✔ Status
 📌 **Training In Progress…**  
