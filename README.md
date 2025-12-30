@@ -143,9 +143,8 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 🔗 **Level 1 – Class & Object Solutions:**  
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
-
 ---
-```graph TD
+graph TD
     A["BridgeLabz-Training"] --> B["core-csharp-practice"]
     A --> D["oops-csharp-practices"]
 
