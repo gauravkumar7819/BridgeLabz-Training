@@ -145,7 +145,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
 
 ---
-
 ## 📊 Repository Structure Overview
 
 ```mermaid
@@ -163,12 +162,4 @@ graph TD
 
     B --> K[scenario-based]
     B --> L[leet-code-codebase]
-    B --> M[oops-csharp-practices]
-
-
-
-
-## ✔ Status
-📌 **Training In Progress…**  
-More days will be added as the program continues.  
-Stay tuned! 😊  
+    B --> M[oops-csharp-practices]```
