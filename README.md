@@ -143,18 +143,31 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 🔗 **Level 1 – Class & Object Solutions:**  
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
+
 ---
+
+## 📊 **Repository Structure Overview**
+
+```mermaid
 graph TD
-    A["BridgeLabz-Training"] --> B["core-csharp-practice"]
-    A --> D["oops-csharp-practices"]
+    A["BridgeLabz-Training "] --> B[core-csharp-practice]
+     
+    B --> C[gcr-codebase]
 
-    B --> C["gcr-codebase"]
-    B --> E["scenario-based"]
-    B --> F["leet-code-codebase"]
+    C --> D[csharp-programming-elements]
+    C --> E[csharp-control-flow]
+    C --> F[csharp-arrays]
+    C --> G[csharp-methods]
+    C --> H[csharp-strings]
+    C --> I[csharp-extras]
 
-    C --> C1["csharp-programming-elements"]
-    C --> C2["csharp-control-flow"]
-    C --> C3["csharp-arrays"]
-    C --> C4["csharp-methods"]
-    C --> C5["csharp-strings"]
-    C --> C6["csharp-extras"]
+    B --> K[scenario-based]
+    B --> L[leet-code-codebase]
+    A--> M[oops-csharp-practices]
+
+
+
+## ✔ Status
+📌 **Training In Progress…**  
+More days will be added as the program continues.  
+Stay tuned! 😊  
