@@ -150,24 +150,18 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
 
 ```mermaid
 graph TD
-    A["BridgeLabz-Training "] --> B[core-csharp-practice]
-     
-    B --> C[gcr-codebase]
+    A["BridgeLabz-Training"] --> B["core-csharp-practice"]
 
-    C --> D[csharp-programming-elements]
-    C --> E[csharp-control-flow]
-    C --> F[csharp-arrays]
-    C --> G[csharp-methods]
-    C --> H[csharp-strings]
-    C --> I[csharp-extras]
+    B --> C["gcr-codebase"]
 
-    B --> K[scenario-based]
-    B --> L[leet-code-codebase]
-    A--> M[oops-csharp-practices]
+    C --> D["csharp-programming-elements"]
+    C --> E["csharp-control-flow"]
+    C --> F["csharp-arrays"]
+    C --> G["csharp-methods"]
+    C --> H["csharp-strings"]
+    C --> I["csharp-extras"]
 
+    B --> K["scenario-based"]
+    B --> L["leet-code-codebase"]
 
-
-## ✔ Status
-📌 **Training In Progress…**  
-More days will be added as the program continues.  
-Stay tuned! 😊  
+    A --> M["oops-csharp-practices"]
