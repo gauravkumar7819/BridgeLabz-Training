@@ -145,12 +145,11 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
 
 ---
-## 📊 Repository Structure Overview
-graph TD
+```graph TD
     A["BridgeLabz-Training"] --> B["core-csharp-practice"]
+    A --> D["oops-csharp-practices"]
 
     B --> C["gcr-codebase"]
-    A --> C["oops-csharp-practices"]
     B --> E["scenario-based"]
     B --> F["leet-code-codebase"]
 
