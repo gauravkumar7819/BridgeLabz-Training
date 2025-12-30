@@ -106,6 +106,65 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
    - Managed execution & memory management  
 
 ---
+---
+
+## 🧩 **Day 7 — Strings & Scenario-Based Problem Solving in C#**  
+📅 **Date:** *26 December 2025*
+
+---
+
+### 📌 **Tasks**
+
+1. Learned and understood **C# Strings**  
+   - String declaration and initialization  
+   - Common string operations (concatenation, substring, length, comparison)  
+   - String immutability  
+
+2. Learned **approaches to scenario-based problems** and solved practice questions  
+
+3. 🔗 **Level 1, Level 2 & Level 3 – Methods Solutions:**  
+https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-methods  
+
+---
+---
+
+## 🧩 **Day 8 — OOP Concepts & Scenario-Based Problem Solving**  
+📅 **Date:** *27 December 2025*
+
+---
+
+### 📌 **Tasks**
+
+1. Solved **scenario-based problem:** Snake and Ladder game  
+
+2. Learned and understood **C# Classes & Objects**  
+   - Concepts of class, object, fields, and methods  
+   - Created a new Git branch: `oops-csharp-practices`  
+
+🔗 **Level 1 – Class & Object Solutions:**  
+https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
+
+---
+
+## 📊 **Repository Structure Overview**
+
+```mermaid
+graph TD
+    A["BridgeLabz-Training (core-csharp-practice branch)"] --> B[core-csharp-practice]
+
+    B --> C[gcr-codebase]
+
+    C --> D[csharp-programming-elements]
+    C --> E[csharp-control-flow]
+    C --> F[csharp-arrays]
+    C --> G[csharp-methods]
+    C --> H[csharp-strings]
+    C --> I[csharp-extras]
+
+    B --> K[scenario-based]
+    B --> L[leet-code-codebase]
+    B --> M[oops-csharp-practices]
+
 
 
 ## ✔ Status
