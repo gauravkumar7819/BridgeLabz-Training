@@ -146,20 +146,17 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
 
 ---
 ## 📊 Repository Structure Overview
-
-```mermaid
 graph TD
-    A["BridgeLabz-Training (core-csharp-practice branch)"] --> B[core-csharp-practice]
+    A["BridgeLabz-Training"] --> B["core-csharp-practice"]
 
-    B --> C[gcr-codebase]
+    B --> C["gcr-codebase"]
+    A --> C["oops-csharp-practices"]
+    B --> E["scenario-based"]
+    B --> F["leet-code-codebase"]
 
-    C --> D[csharp-programming-elements]
-    C --> E[csharp-control-flow]
-    C --> F[csharp-arrays]
-    C --> G[csharp-methods]
-    C --> H[csharp-strings]
-    C --> I[csharp-extras]
-
-    B --> K[scenario-based]
-    B --> L[leet-code-codebase]
-    B --> M[oops-csharp-practices]
+    C --> C1["csharp-programming-elements"]
+    C --> C2["csharp-control-flow"]
+    C --> C3["csharp-arrays"]
+    C --> C4["csharp-methods"]
+    C --> C5["csharp-strings"]
+    C --> C6["csharp-extras"]
