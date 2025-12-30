@@ -129,7 +129,7 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 ---
 
 ## 🧩 **Day 8 — OOP Concepts & Scenario-Based Problem Solving**  
-📅 **Date:** *27 December 2025*
+📅 **Date:** *30 December 2025*
 
 ---
 
