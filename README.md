@@ -165,4 +165,7 @@ graph TD
     B --> L["leet-code-codebase"]
 
     A --> M["oops-csharp-practices"]
-    M-->N[Object and Class]
+    M-->N["leet-code-codebase"]
+    M-->O["scenario-based"]
+    M-->P[gcr-codebase]
+    P-->Q[class and Objects]
