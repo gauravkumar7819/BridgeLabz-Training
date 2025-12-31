@@ -1,6 +1,5 @@
 # 📚 **BridgeLabz Training **  
---
-
+---
 ## 🏁 Day 1 — .NET & C# Foundations 🚀  
 📅 18 Dec 2025  
 
@@ -40,7 +39,6 @@
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-programming-elements
 
 ---
----
 
 ## 🧩 **Day 4 — Visual Studio Environment + Control Flow Practice**  
 📅 **Date:** *22 December 2025*
@@ -65,8 +63,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 ---
 
----
-
 ## 🧩 **Day 5 — Arrays Practice in C#**  
 📅 **Date:** *23 December 2025*
 
@@ -82,7 +78,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 2. 🔗 **Level 2 & Level 3 – C# Control Flow Solutions:**  
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-control-flows  
 
----
 ---
 
 ## 🧩 **Day 6 — Methods & .NET Architecture**  
@@ -106,7 +101,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
    - Managed execution & memory management  
 
 ---
----
 
 ## 🧩 **Day 7 — Strings & Scenario-Based Problem Solving in C#**  
 📅 **Date:** *26 December 2025*
@@ -126,10 +120,9 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-methods  
 
 ---
----
 
 ## 🧩 **Day 8 — OOP Concepts & Scenario-Based Problem Solving**  
-📅 **Date:** *30 December 2025*
+📅 **Date:** *29 December 2025*
 
 ---
 
@@ -143,6 +136,43 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 🔗 **Level 1 – Class & Object Solutions:**  
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
+
+---
+
+## 🧩 **Day 9 — Constructors, Access Modifiers & Scenario-Based Practice**  
+📅 **Date:** *30 December 2025*
+
+---
+
+### 📌 **Tasks**
+
+1. Learned and understood **Constructors in C#**
+   - Purpose of constructors  
+   - Default vs parameterized constructors  
+   - Constructor overloading  
+
+2. Revised **Access Modifiers in C#**
+   - public  
+   - private  
+   - protected  
+   - internal  
+   - protected internal  
+
+3. Understood and practiced **scenario-based problems**
+   - Implemented **Library Management System**
+---
+## 🧩 **Day 10 — C# Keywords & Scenario-Based Problem Solving**  
+📅 **Date:** *31 December 2025*
+### 📌 **Tasks**
+
+1. Learned and understood key **C# keywords**
+   - `static` keyword  
+   - `is` keyword  
+   - `sealed` keyword  
+   - `this` keyword  
+
+2. Practiced and solved **scenario-based problems**
+   - Implemented **Bank Management System**
 
 ---
 
