@@ -175,6 +175,80 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
    - Implemented **Bank Management System**
 
 ---
+---
+
+## 🧩 **Day 11 — Classes, Objects & UML Introduction**  
+📅 **Date:** *1 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood and revised **Classes & Objects in C#**
+   - Relationship between class and object  
+   - Fields, methods, and constructors  
+   - Object creation and usage  
+
+2. Introduction to **UML Diagrams**
+   - Purpose of UML  
+   - Basics of **Class Diagram**
+   - Understanding class relationships  
+
+3. Worked on **scenario-based problems**
+   - Applied OOP concepts in real-world scenarios  
+   - Designed logical structure using class diagrams  
+
+---
+---
+
+## 🧩 **Day 12 — Inheritance in C# & Scenario-Based Practice**  
+📅 **Date:** *2 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood the concept of **Inheritance in C#**
+   - Base class and derived class  
+   - Code reusability and extensibility  
+
+2. Learned **Types of Inheritance**
+   - Single inheritance  
+   - Multilevel inheritance  
+   - Hierarchical inheritance  
+  
+3. Worked on **scenario-based problems**
+   - Applied inheritance concepts  
+   - Designed parent–child class relationships  
+
+---
+---
+
+## 🧩 **Day 13 — OOPS Revision, ToString & C# Keywords**  
+📅 **Date:** *3 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Revised core **OOPS concepts in C#**
+   - Encapsulation  
+   - Inheritance  
+   - Polymorphism  
+   - Abstraction  
+
+2. Learned and practiced the **`ToString()` method in C#**
+   - Purpose of `ToString()`  
+   - Overriding `ToString()` in classes  
+   - Formatting object output  
+
+3. Completed pending tasks on **C# keywords**
+   - `static`  
+   - `is`  
+   - `sealed`  
+   - `this`  
+
+---
 
 ## 📊 **Repository Structure Overview**
 
