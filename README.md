@@ -249,6 +249,51 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
    - `this`  
 
 ---
+---
+
+## 🔁 **Day 14 — Polymorphism & Encapsulation (OOPS)**  
+📅 **Date:** *5 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood and revised **Polymorphism in C#**
+   - Method Overloading  
+   - Method Overriding  
+   - Runtime vs Compile-time Polymorphism  
+
+2. Understood and revised **Encapsulation in C#**
+   - Access modifiers  
+   - Data hiding using properties  
+   - Getter and Setter implementation  
+
+3. Solved and practiced **scenario-based problems**
+   - Real-world OOPS use cases  
+   - Applying polymorphism and encapsulation  
+
+---
+---
+
+## 🧩 **Day 15 — Abstraction (OOPS)**  
+📅 **Date:** *6 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood and revised **Abstraction in C#**
+   - Abstract classes  
+   - Abstract methods  
+   - Difference between **Abstract Class vs Interface**  
+   - Real-world abstraction examples  
+
+2. Solved and practiced **scenario-based problems**
+   - Implemented abstraction using abstract classes  
+   - Used interfaces for loose coupling  
+   - Applied abstraction in real-world scenarios  
+
+---
 
 ## 📊 **Repository Structure Overview**
 
