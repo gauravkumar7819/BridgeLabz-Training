@@ -1,6 +1,6 @@
 # 📚 **BridgeLabz Training **  
---
-
+---
+//git checkout main -- README.md
 ## 🏁 Day 1 — .NET & C# Foundations 🚀  
 📅 18 Dec 2025  
 
@@ -40,7 +40,6 @@
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-programming-elements
 
 ---
----
 
 ## 🧩 **Day 4 — Visual Studio Environment + Control Flow Practice**  
 📅 **Date:** *22 December 2025*
@@ -65,8 +64,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 ---
 
----
-
 ## 🧩 **Day 5 — Arrays Practice in C#**  
 📅 **Date:** *23 December 2025*
 
@@ -82,7 +79,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 2. 🔗 **Level 2 & Level 3 – C# Control Flow Solutions:**  
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-control-flows  
 
----
 ---
 
 ## 🧩 **Day 6 — Methods & .NET Architecture**  
@@ -106,7 +102,6 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
    - Managed execution & memory management  
 
 ---
----
 
 ## 🧩 **Day 7 — Strings & Scenario-Based Problem Solving in C#**  
 📅 **Date:** *26 December 2025*
@@ -126,10 +121,9 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice/core-csharp-practice/gcr-codebase/csharp-methods  
 
 ---
----
 
 ## 🧩 **Day 8 — OOP Concepts & Scenario-Based Problem Solving**  
-📅 **Date:** *30 December 2025*
+📅 **Date:** *29 December 2025*
 
 ---
 
@@ -143,6 +137,162 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/core-csharp-practice
 
 🔗 **Level 1 – Class & Object Solutions:**  
 https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice/oops-csharp-practice/gcr-codebase/ClassandObjects/level1 
+
+---
+
+## 🧩 **Day 9 — Constructors, Access Modifiers & Scenario-Based Practice**  
+📅 **Date:** *30 December 2025*
+
+---
+
+### 📌 **Tasks**
+
+1. Learned and understood **Constructors in C#**
+   - Purpose of constructors  
+   - Default vs parameterized constructors  
+   - Constructor overloading  
+
+2. Revised **Access Modifiers in C#**
+   - public  
+   - private  
+   - protected  
+   - internal  
+   - protected internal  
+
+3. Understood and practiced **scenario-based problems**
+   - Implemented **Library Management System**
+---
+## 🧩 **Day 10 — C# Keywords & Scenario-Based Problem Solving**  
+📅 **Date:** *31 December 2025*
+### 📌 **Tasks**
+
+1. Learned and understood key **C# keywords**
+   - `static` keyword  
+   - `is` keyword  
+   - `sealed` keyword  
+   - `this` keyword  
+
+2. Practiced and solved **scenario-based problems**
+   - Implemented **Bank Management System**
+
+---
+---
+
+## 🧩 **Day 11 — Classes, Objects & UML Introduction**  
+📅 **Date:** *1 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood and revised **Classes & Objects in C#**
+   - Relationship between class and object  
+   - Fields, methods, and constructors  
+   - Object creation and usage  
+
+2. Introduction to **UML Diagrams**
+   - Purpose of UML  
+   - Basics of **Class Diagram**
+   - Understanding class relationships  
+
+3. Worked on **scenario-based problems**
+   - Applied OOP concepts in real-world scenarios  
+   - Designed logical structure using class diagrams  
+
+---
+---
+
+## 🧩 **Day 12 — Inheritance in C# & Scenario-Based Practice**  
+📅 **Date:** *2 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood the concept of **Inheritance in C#**
+   - Base class and derived class  
+   - Code reusability and extensibility  
+
+2. Learned **Types of Inheritance**
+   - Single inheritance  
+   - Multilevel inheritance  
+   - Hierarchical inheritance  
+  
+3. Worked on **scenario-based problems**
+   - Applied inheritance concepts  
+   - Designed parent–child class relationships  
+
+---
+---
+
+## 🧩 **Day 13 — OOPS Revision, ToString & C# Keywords**  
+📅 **Date:** *3 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Revised core **OOPS concepts in C#**
+   - Encapsulation  
+   - Inheritance  
+   - Polymorphism  
+   - Abstraction  
+
+2. Learned and practiced the **`ToString()` method in C#**
+   - Purpose of `ToString()`  
+   - Overriding `ToString()` in classes  
+   - Formatting object output  
+
+3. Completed pending tasks on **C# keywords**
+   - `static`  
+   - `is`  
+   - `sealed`  
+   - `this`  
+
+---
+---
+
+## 🔁 **Day 14 — Polymorphism & Encapsulation (OOPS)**  
+📅 **Date:** *5 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood and revised **Polymorphism in C#**
+   - Method Overloading  
+   - Method Overriding  
+   - Runtime vs Compile-time Polymorphism  
+
+2. Understood and revised **Encapsulation in C#**
+   - Access modifiers  
+   - Data hiding using properties  
+   - Getter and Setter implementation  
+
+3. Solved and practiced **scenario-based problems**
+   - Real-world OOPS use cases  
+   - Applying polymorphism and encapsulation  
+
+---
+---
+
+## 🧩 **Day 15 — Abstraction (OOPS)**  
+📅 **Date:** *6 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Understood and revised **Abstraction in C#**
+   - Abstract classes  
+   - Abstract methods  
+   - Difference between **Abstract Class vs Interface**  
+   - Real-world abstraction examples  
+
+2. Solved and practiced **scenario-based problems**
+   - Implemented abstraction using abstract classes  
+   - Used interfaces for loose coupling  
+   - Applied abstraction in real-world scenarios  
 
 ---
 
