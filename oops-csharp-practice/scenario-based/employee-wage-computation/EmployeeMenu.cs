@@ -17,6 +17,7 @@ namespace employee_wage_computation
 					
 			employee.CheckEmployeeAttendance();
 employee.CalculateEmployeeWage();
+			employee.CalculatePartTimeEmployeeWage();
 
 
 		}

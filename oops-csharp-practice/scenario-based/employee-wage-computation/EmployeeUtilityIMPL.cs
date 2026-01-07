@@ -66,10 +66,32 @@ namespace employee_wage_computation
 				}
 			}
 			}
+		//UC 3
+		public void  CalculatePartTimeEmployeeWage()
+		{
+			const int WAGE_PER_HOUR = 20;
+			const int PART_TIME_HOURS = 8;
+			for (int i = 0; i < employees.Length; i++)
+			{
+				Random random = new Random();
+				int attendance = random.Next(0, 2); // 0 = Absent, 1 = Present
+
+				if (attendance == 1)
+				{
+					Console.WriteLine("Employee " + (i + 1) + " Daily Wage: " + (PART_TIME_HOURS * WAGE_PER_HOUR));
+
+				}
+				else
+				{
+					Console.WriteLine("Employee " + (i + 1) + " Daily Wage: 0");
+				}
+			}
+		}
 
 
-		
+
 	}
+
 }
 	
 
