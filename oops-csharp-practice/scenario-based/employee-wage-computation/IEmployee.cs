@@ -10,5 +10,7 @@ namespace employee_wage_computation
 		void CheckEmployeeAttendance();
 		void  CalculateEmployeeWage();
 		void CalculatePartTimeEmployeeWage();
+		void CalculateMonthlyEmployeeWage();
 	}
+
 }

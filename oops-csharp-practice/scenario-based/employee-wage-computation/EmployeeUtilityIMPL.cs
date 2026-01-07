@@ -87,6 +87,25 @@ namespace employee_wage_computation
 				}
 			}
 		}
+		//UC 5
+		public void CalculateMonthlyEmployeeWage()
+		{
+			const int WAGE_PER_HOUR = 20;
+			const int FULL_DAY_HOURS = 8;
+			const int WORKING_DAYS_PER_MONTH = 20;
+
+			int dailyWage = FULL_DAY_HOURS * WAGE_PER_HOUR;
+			int monthlyWage = dailyWage * WORKING_DAYS_PER_MONTH;
+
+			for (int i = 0; i < employees.Length; i++)
+			{
+				Console.WriteLine(
+					"Monthly Employee Wage of Employee " + (i + 1) + ": " + monthlyWage
+				);
+			}
+		}
+
+
 
 
 
