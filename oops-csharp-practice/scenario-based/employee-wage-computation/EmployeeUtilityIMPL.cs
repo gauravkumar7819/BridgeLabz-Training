@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using employee_wage_computation;
 
@@ -28,7 +29,7 @@ namespace employee_wage_computation
 		public void CheckEmployeeAttendance()
 		{
 			Random random = new Random();
-		
+
 
 			for (int i = 0; i < employees.Length; i++)
 			{
@@ -43,8 +44,31 @@ namespace employee_wage_computation
 				}
 
 			}
-
 		}
+		//UC 2
+		public void CalculateEmployeeWage()
+			{
+				const int WAGE_PER_HOUR = 20;
+				const int FULL_DAY_HOURS = 8;
+			for (int i = 0; i < employees.Length; i++)
+			{
+				Random random = new Random();
+				int attendance = random.Next(0, 2); // 0 = Absent, 1 = Present
+
+				if (attendance == 1)
+				{
+					Console.WriteLine("Employee " + (i + 1) + " Daily Wage: " + (FULL_DAY_HOURS * WAGE_PER_HOUR));
+
+				}
+				else
+				{
+					Console.WriteLine("Employee " + (i + 1) + " Daily Wage: 0");
+				}
+			}
+			}
+
+
+		
 	}
 }
 	

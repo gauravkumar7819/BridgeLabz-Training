@@ -16,7 +16,7 @@ namespace employee_wage_computation
 					employee.AddEmployee();
 					
 			employee.CheckEmployeeAttendance();
-
+employee.CalculateEmployeeWage();
 
 
 		}
@@ -24,4 +24,4 @@ namespace employee_wage_computation
 
 
 	}
-}
+
