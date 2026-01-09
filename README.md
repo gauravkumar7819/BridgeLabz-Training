@@ -294,6 +294,72 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
    - Applied abstraction in real-world scenarios  
 
 ---
+---
+
+## 🧠 **Day 16 — Introduction to DSA (Linked List)**  
+📅 **Date:** *7 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Started learning **Data Structures & Algorithms (DSA)**
+   - Introduction to DSA  
+   - Importance of DSA in problem solving  
+   - Real-world use cases  
+
+2. Learned and revised **Linked List**
+   - Singly Linked List  
+   - Nodes and pointers  
+   - Insertion (beginning, end, position)  
+   - Deletion operations  
+   - Traversal  
+
+---
+---
+
+## 🧠 **Day 17 — Stack, Queue & Dictionary (DSA + OOPS Practice)**  
+📅 **Date:** *8 January 2026*
+
+---
+
+### 📌 **Tasks**
+
+1. Learned and revised **Stack**
+   - LIFO principle  
+   - Push, Pop, Peek operations  
+   - Real-world examples (undo/redo, call stack)
+
+2. Learned and revised **Queue**
+   - FIFO principle  
+   - Enqueue, Dequeue operations  
+   - Circular Queue basics  
+   - Real-world examples (task scheduling)
+
+3. Learned and revised **Dictionary**
+   - Key–Value pair concept  
+   - Adding, updating, removing elements  
+   - Searching and iteration  
+   - Use cases in C#
+
+4. Solved **scenario-based questions using OOPS**
+   - Applied classes, objects, inheritance, polymorphism  
+   - Used Stack, Queue, and Dictionary in real-life scenarios  
+   - Hands-on problem-solving in C#
+
+---
+
+## 🧠 Day 18  
+📅 Date: 9 January 2026  
+
+### 📌 Tasks
+- Revised **Stack, Queue, and Dictionary**
+- Practiced problems on Stack & Queue
+- Solved scenario-based questions using DSA concepts
+---
+
+---
+
 
 ## 📊 **Repository Structure Overview**
 
