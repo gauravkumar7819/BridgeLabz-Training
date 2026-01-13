@@ -18,7 +18,7 @@ namespace movies_scheduler_manager
                 Console.WriteLine("3. Search Movie");
                 Console.WriteLine("4. Exit");
                 Console.Write("Enter your choice: ");
-
+ 
                 choice = Convert.ToInt32(Console.ReadLine());
 
                 switch (choice)
@@ -33,7 +33,6 @@ namespace movies_scheduler_manager
                         movieUtility.AddMovie(name, time);
                         Console.WriteLine("Movie added successfully!");
                         break;
-
                     case 2:
                        ((MovieUtility)movieUtility).DisplayAll();
                         break;
