@@ -8,7 +8,6 @@ namespace address_book_system
         static int count = 0;
 
         // Add Contact
-        //UC-2
         public void AddContact()
         {
             if (count >= contacts.Length)
@@ -61,6 +60,57 @@ namespace address_book_system
                 Console.WriteLine(contacts[i]);
             }
         }
+// /UC-3
+        public void EditContact()
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("No contacts available to edit!");
+                return;
+            }
 
+            Console.Write("Enter First Name to Edit: ");
+            string name = Console.ReadLine();
 
-}}
+            bool found = false;
+
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].FirstName.Equals(name))
+                {
+                    Console.WriteLine("Contact Found! Enter new details:");
+
+                    Console.Write("Enter New Last Name: ");
+                    contacts[i].LastName = Console.ReadLine();
+
+                    Console.Write("Enter New Address: ");
+                    contacts[i].Address = Console.ReadLine();
+
+                    Console.Write("Enter New City: ");
+                    contacts[i].City = Console.ReadLine();
+
+                    Console.Write("Enter New State: ");
+                    contacts[i].State = Console.ReadLine();
+
+                    Console.Write("Enter New Zip: ");
+                    contacts[i].Zip = Console.ReadLine();
+
+                    Console.Write("Enter New Phone Number: ");
+                    contacts[i].PhoneNumber = Console.ReadLine();
+
+                    Console.Write("Enter New Email: ");
+                    contacts[i].Email = Console.ReadLine();
+
+                    Console.WriteLine("Contact Updated Successfully!");
+                    found = true;
+                    break;
+                }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("Contact not found!");
+            }
+        }
+    }
+}
