@@ -8,6 +8,44 @@ namespace address_book_system
         static int count = 0;
 
         // Add Contact
+        //UC-2
+        public void AddContact()
+        {
+            if (count >= contacts.Length)
+            {
+                Console.WriteLine("Address Book is Full!");
+                return;
+            }
+
+            Contact contact = new Contact();
+
+            Console.Write("Enter First Name: ");
+            contact.FirstName = Console.ReadLine();
+
+            Console.Write("Enter Last Name: ");
+            contact.LastName = Console.ReadLine();
+
+            Console.Write("Enter Address: ");
+            contact.Address = Console.ReadLine();
+
+            Console.Write("Enter City: ");
+            contact.City = Console.ReadLine();
+
+            Console.Write("Enter State: ");
+            contact.State = Console.ReadLine();
+
+            Console.Write("Enter Zip: ");
+            contact.Zip = Console.ReadLine();
+
+            Console.Write("Enter Phone Number: ");
+            contact.PhoneNumber = Console.ReadLine();
+
+            Console.Write("Enter Email: ");
+            contact.Email = Console.ReadLine();
+
+            contacts[count++] = contact;
+            Console.WriteLine("Contact Added Successfully!");
+        }
 
         // Display Contacts
         public void DisplayAll()
