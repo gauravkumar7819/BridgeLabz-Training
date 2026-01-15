@@ -113,7 +113,35 @@ namespace address_book_system
                 Console.WriteLine(contacts[i]);
             }
         }
-// /UC-3
+// /UC-4
+         public void DeleteContact()
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("No contacts to delete!");
+                return;
+            }
+
+            Console.Write("Enter First Name to Delete: ");
+            string name = Console.ReadLine();
+
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].FirstName.Equals(name))
+                {
+                    // Shift contacts left
+                    for (int j = i; j < count - 1; j++)
+                    {
+                        contacts[j] = contacts[j + 1];
+                    }
+
+                    contacts[count - 1] = null;
+                    count--;
+
+                    Console.WriteLine("Contact Deleted Successfully!");
+                    return;
+                }}}
+
 
 }
 }

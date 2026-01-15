@@ -7,8 +7,7 @@ namespace address_book_system
         {
             AddressBookMenu addressBookMenu =new AddressBookMenu();
             addressBookMenu.Choice();
-            addressBookMenu.DisplayAll();
-            // Console.WriteLine("Hi");
+          
             
         }
         
