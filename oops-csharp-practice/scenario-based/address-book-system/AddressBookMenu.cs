@@ -15,7 +15,9 @@ namespace address_book_system
                 Console.WriteLine("2. Display Contact");
                 Console.WriteLine("3. Edit Contact");
                 Console.WriteLine("4. Delete Contact");
-                Console.WriteLine("5. Exit");
+                Console.WriteLine("5. Add Multiple Contact");
+
+                Console.WriteLine("6. Exit");
                 Console.Write("Enter your choice: ");
 
                 ch = Convert.ToInt32(Console.ReadLine());
@@ -41,8 +43,14 @@ namespace address_book_system
                         addressBook.DeleteContact();
                         Console.WriteLine("Delete Contact selected");
                         break;
+                        case 5:
+                        System.Console.WriteLine("Enter the number of Contacts");
+                        int limit=Convert.ToInt32(Console.ReadLine());
+                        
+                        addressBook.AddMultipleContacts(limit);
+                        break;
 
-                    case 5:
+                    case 6:
                         Console.WriteLine("Exiting Program...");
                         break;
 
@@ -51,7 +59,7 @@ namespace address_book_system
                         break;
                 }
 
-            } while (ch != 5);
+            } while (ch != 6);
         }
     }
 }

@@ -5,7 +5,8 @@ namespace address_book_system
         void AddContact();
         void EditContact();
         void DisplayAll();
-        void DeleteContact();       
+        void DeleteContact();  
+        void AddMultipleContacts(int limit);   
         
     }
 }

@@ -7,6 +7,7 @@ namespace address_book_system
         Contact[] contacts = new Contact[5];
         static int count = 0;
 
+
         // Add Contact
         //UC-2
         public void AddContact()
@@ -142,6 +143,15 @@ namespace address_book_system
                     return;
                 }}}
 
+                //UC-5
 
+public void AddMultipleContacts(int limit)
+{
+    for (int i = 0; i < limit; i++)
+    {
+        Console.WriteLine("Enter details of user " + (i + 1));
+        AddContact();
+    }
 }
+    }
 }
