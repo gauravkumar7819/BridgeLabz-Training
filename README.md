@@ -357,6 +357,45 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
 - Practiced problems on Stack & Queue
 - Solved scenario-based questions using DSA concepts
 ---
+## 🧠 Day 19 – Sorting Algorithms Fundamentals  
+📅 Date: 12 January 2026  
+
+### 📌 Topics Covered
+- Bubble Sort (basic swapping logic)
+- Insertion Sort (incremental sorting)
+- Merge Sort (divide & conquer)
+- Quick Sort (partition-based sorting)
+
+### 🎯 Outcome
+- Understood multiple sorting techniques
+- Compared algorithms by strategy & efficiency
+- Strong base for complexity analysis  
+
+
+## 🧠 Day 20 – String Optimization & Searching  
+📅 Date: 13 January 2026  
+
+### 📌 Topics Covered
+- StringBuilder for efficient string handling
+- Linear Search (basic searching)
+- Binary Search (optimized searching on sorted data)
+
+### 🎯 Outcome
+- Better string performance understanding
+- Clear difference between linear & binary search
+- Improved time-complexity awareness  
+
+
+## 🧠 Day 21 – Runtime Analysis & Algorithm Efficiency  
+📅 Date: 14 January 2026  
+
+### 📌 Topics Covered
+- Runtime Analysis basics
+- Big-O Notation
+- Time & Space Complexity
+- Best, Worst & Average cases
+- Optimization best practices
+
 
 ---
 
@@ -384,3 +423,4 @@ graph TD
     M-->O["scenario-based"]
     M-->P[gcr-codebase]
     P-->Q[class and Objects]
+    
