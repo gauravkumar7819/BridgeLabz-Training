@@ -20,7 +20,14 @@ namespace address_book_system
                 Console.WriteLine("5. Edit Contact");
                 Console.WriteLine("6. Delete Contact");
                 Console.WriteLine("7. Add Multiple Contacts");
-                Console.WriteLine("8. Exit");
+                Console.WriteLine("8. Search Person by City");
+Console.WriteLine("9. Search Person by State");
+
+Console.WriteLine("10. Count By city");
+Console.WriteLine("11. Count By State");
+
+
+                Console.WriteLine("12. Exit");
 
                 Console.Write("Enter your choice: ");
                 ch = Convert.ToInt32(Console.ReadLine());
@@ -75,8 +82,25 @@ namespace address_book_system
                             Console.WriteLine("Please select an Address Book first!");
                         }
                         break;
+                        case 8:
+    Console.Write("Enter City: ");
+    string city = Console.ReadLine();
+   addressBook.SearchByCity(city);
+    break;
 
-                    case 8:
+case 9:
+    Console.Write("Enter State: ");
+    string state = Console.ReadLine();
+    addressBook.SearchByState(state);
+    break;
+case 10:
+    manager.CountByCity();
+    break;
+    case 11:
+    manager.CountByState();
+    break;
+
+                    case 12:
                         Console.WriteLine("Exiting Program...");
                         break;
 
@@ -85,7 +109,7 @@ namespace address_book_system
                         break;
                 }
 
-            } while (ch != 8);
+            } while (ch != 13);
         }
     }
 }

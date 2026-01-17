@@ -5,9 +5,9 @@ namespace address_book_system
     class AddressBookUtility : IAddressBook
     {
         Contact[] contacts = new Contact[5];
-        static int count = 0;
+        int count = 0;   // ❗ NOT static
 
-        // UC-2 Add Contact (with Duplicate Check)
+        // UC-2 + UC-7 Add Contact with Duplicate Check
         public void AddContact()
         {
             if (count >= contacts.Length)
@@ -24,7 +24,7 @@ namespace address_book_system
             Console.Write("Enter Last Name: ");
             contact.LastName = Console.ReadLine();
 
-            // UC-7 Duplicate Check using Equals()
+            // Duplicate check by Name (UC-7)
             for (int i = 0; i < count; i++)
             {
                 if (contacts[i].Equals(contact))
@@ -59,12 +59,6 @@ namespace address_book_system
         // UC-3 Edit Contact
         public void EditContact()
         {
-            if (count == 0)
-            {
-                Console.WriteLine("No contacts available to edit!");
-                return;
-            }
-
             Console.Write("Enter First Name to Edit: ");
             string name = Console.ReadLine();
 
@@ -72,26 +66,11 @@ namespace address_book_system
             {
                 if (contacts[i].FirstName.Equals(name))
                 {
-                    Console.Write("Enter New Last Name: ");
-                    contacts[i].LastName = Console.ReadLine();
-
-                    Console.Write("Enter New Address: ");
-                    contacts[i].Address = Console.ReadLine();
-
                     Console.Write("Enter New City: ");
                     contacts[i].City = Console.ReadLine();
 
                     Console.Write("Enter New State: ");
                     contacts[i].State = Console.ReadLine();
-
-                    Console.Write("Enter New Zip: ");
-                    contacts[i].Zip = Console.ReadLine();
-
-                    Console.Write("Enter New Phone Number: ");
-                    contacts[i].PhoneNumber = Console.ReadLine();
-
-                    Console.Write("Enter New Email: ");
-                    contacts[i].Email = Console.ReadLine();
 
                     Console.WriteLine("Contact Updated Successfully!");
                     return;
@@ -104,12 +83,6 @@ namespace address_book_system
         // UC-4 Delete Contact
         public void DeleteContact()
         {
-            if (count == 0)
-            {
-                Console.WriteLine("No contacts to delete!");
-                return;
-            }
-
             Console.Write("Enter First Name to Delete: ");
             string name = Console.ReadLine();
 
@@ -118,9 +91,7 @@ namespace address_book_system
                 if (contacts[i].FirstName.Equals(name))
                 {
                     for (int j = i; j < count - 1; j++)
-                    {
                         contacts[j] = contacts[j + 1];
-                    }
 
                     contacts[--count] = null;
                     Console.WriteLine("Contact Deleted Successfully!");
@@ -131,7 +102,7 @@ namespace address_book_system
             Console.WriteLine("Contact not found!");
         }
 
-        // UC-5 Display Contacts
+        // UC-5 Display
         public void DisplayAll()
         {
             if (count == 0)
@@ -143,7 +114,7 @@ namespace address_book_system
             for (int i = 0; i < count; i++)
             {
                 Console.WriteLine(contacts[i]);
-                Console.WriteLine("----------------------");
+                Console.WriteLine("-------------------");
             }
         }
 
@@ -152,9 +123,55 @@ namespace address_book_system
         {
             for (int i = 0; i < limit; i++)
             {
-                Console.WriteLine("\nEnter details of user " + (i + 1));
                 AddContact();
             }
+        }
+
+        // UC-8 Search by City
+        public void SearchByCity(string city)
+        {
+            bool found = false;
+
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].City.Equals(city))
+                {
+                    Console.WriteLine(contacts[i]);
+                    found = true;
+                }
+            }
+
+            if (!found)
+                Console.WriteLine("No contact found in city " + city);
+        }
+
+        // UC-8 Search by State
+        public void SearchByState(string state)
+        {
+            bool found = false;
+
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].State.Equals(state))
+                {
+                    Console.WriteLine(contacts[i]);
+                    found = true;
+                }
+            }
+
+            if (!found)
+                Console.WriteLine("No contact found in state " + state);
+        }
+
+        // Needed for UC-10 (called from AddressBookMain)
+        public Contact[] GetContacts()
+        {
+            return contacts;
+        }
+
+        public int GetCount()
+        {
+            return count;
         }
     }
 }

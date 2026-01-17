@@ -9,6 +9,56 @@ namespace address_book_system
         private Dictionary<string, AddressBookUtility> addressBooks
             = new Dictionary<string, AddressBookUtility>();
 
+public void CountByState()
+{
+    Console.Write("Enter State Name: ");
+    string state = Console.ReadLine();
+
+    int totalCount = 0;
+
+    foreach (var book in addressBooks.Values)
+    {
+        Contact[] contacts = book.GetContacts();
+        int count = book.GetCount();
+
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i] != null &&
+                contacts[i].State.Equals(state))
+            {
+                totalCount++;
+            }
+        }
+    }
+
+    Console.WriteLine("Total persons in state " + state + " = " + totalCount);
+}
+
+
+public void CountByCity()
+{
+    Console.Write("Enter City Name: ");
+    string city = Console.ReadLine();
+
+    int totalCount = 0;
+
+    foreach (var book in addressBooks.Values)
+    {
+        Contact[] contacts = book.GetContacts();
+        int count = book.GetCount();
+
+        for (int i = 0; i < count; i++)
+        {
+            if (contacts[i] != null &&
+                contacts[i].City.Equals(city))
+            {
+                totalCount++;
+            }
+        }
+    }
+
+    Console.WriteLine("Total persons in city " + city + " = " + totalCount);
+}
         public void AddAddressBook()
         {
             Console.Write("Enter Address Book Name: ");
