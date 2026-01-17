@@ -1,7 +1,9 @@
 using System;
+
 namespace address_book_system
-// uc-1
-   { public class Contact
+{
+    // UC-1 Encapsulated Contact Class
+    public class Contact
     {
         private string firstName;
         private string lastName;
@@ -59,16 +61,28 @@ namespace address_book_system
             get { return email; }
             set { email = value; }
         }
-       public override string ToString()
-{
-    return "Name: " + FirstName + " " + LastName +
-           "\nAddress: " + Address +
-           "\nCity: " + City +
-           "\nState: " + State +
-           "\nZip: " + Zip +
-           "\nPhone: " + PhoneNumber +
-           "\nEmail: " + Email;
-}
 
+        // UC-7 Duplicate Check (Person Name)
+        public override bool Equals(object obj)
+        {
+            if (obj == null || !(obj is Contact))
+                return false;
+
+            Contact other = (Contact)obj;
+
+            return this.FirstName.Equals(other.FirstName, StringComparison.OrdinalIgnoreCase)
+                && this.LastName.Equals(other.LastName, StringComparison.OrdinalIgnoreCase);
+        }
+
+        public override string ToString()
+        {
+            return "Name: " + FirstName + " " + LastName +
+                   "\nAddress: " + Address +
+                   "\nCity: " + City +
+                   "\nState: " + State +
+                   "\nZip: " + Zip +
+                   "\nPhone: " + PhoneNumber +
+                   "\nEmail: " + Email;
+        }
     }
 }
