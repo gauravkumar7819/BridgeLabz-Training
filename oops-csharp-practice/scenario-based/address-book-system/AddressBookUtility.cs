@@ -7,9 +7,7 @@ namespace address_book_system
         Contact[] contacts = new Contact[5];
         static int count = 0;
 
-
-        // Add Contact
-        //UC-2
+        // UC-2 Add Contact (with Duplicate Check)
         public void AddContact()
         {
             if (count >= contacts.Length)
@@ -25,6 +23,16 @@ namespace address_book_system
 
             Console.Write("Enter Last Name: ");
             contact.LastName = Console.ReadLine();
+
+            // UC-7 Duplicate Check using Equals()
+            for (int i = 0; i < count; i++)
+            {
+                if (contacts[i].Equals(contact))
+                {
+                    Console.WriteLine("Duplicate Contact Found! Cannot add.");
+                    return;
+                }
+            }
 
             Console.Write("Enter Address: ");
             contact.Address = Console.ReadLine();
@@ -47,7 +55,8 @@ namespace address_book_system
             contacts[count++] = contact;
             Console.WriteLine("Contact Added Successfully!");
         }
-        // UC-3
+
+        // UC-3 Edit Contact
         public void EditContact()
         {
             if (count == 0)
@@ -59,14 +68,10 @@ namespace address_book_system
             Console.Write("Enter First Name to Edit: ");
             string name = Console.ReadLine();
 
-            bool found = false;
-
             for (int i = 0; i < count; i++)
             {
                 if (contacts[i].FirstName.Equals(name))
                 {
-                    Console.WriteLine("Contact Found! Enter new details:");
-
                     Console.Write("Enter New Last Name: ");
                     contacts[i].LastName = Console.ReadLine();
 
@@ -89,33 +94,15 @@ namespace address_book_system
                     contacts[i].Email = Console.ReadLine();
 
                     Console.WriteLine("Contact Updated Successfully!");
-                    found = true;
-                    break;
+                    return;
                 }
             }
 
-            if (!found)
-            {
-                Console.WriteLine("Contact not found!");
-            }
+            Console.WriteLine("Contact not found!");
         }
-    
-        // Display Contacts
-        public void DisplayAll()
-        {
-            if (count == 0)
-            {
-                Console.WriteLine("No contacts found!");
-                return;
-            }
 
-            for (int i = 0; i < count; i++)
-            {
-                Console.WriteLine(contacts[i]);
-            }
-        }
-// /UC-4
-         public void DeleteContact()
+        // UC-4 Delete Contact
+        public void DeleteContact()
         {
             if (count == 0)
             {
@@ -130,28 +117,44 @@ namespace address_book_system
             {
                 if (contacts[i].FirstName.Equals(name))
                 {
-                    // Shift contacts left
                     for (int j = i; j < count - 1; j++)
                     {
                         contacts[j] = contacts[j + 1];
                     }
 
-                    contacts[count - 1] = null;
-                    count--;
-
+                    contacts[--count] = null;
                     Console.WriteLine("Contact Deleted Successfully!");
                     return;
-                }}}
+                }
+            }
 
-                //UC-5
+            Console.WriteLine("Contact not found!");
+        }
 
-public void AddMultipleContacts(int limit)
-{
-    for (int i = 0; i < limit; i++)
-    {
-        Console.WriteLine("Enter details of user " + (i + 1));
-        AddContact();
-    }
-}
+        // UC-5 Display Contacts
+        public void DisplayAll()
+        {
+            if (count == 0)
+            {
+                Console.WriteLine("No contacts found!");
+                return;
+            }
+
+            for (int i = 0; i < count; i++)
+            {
+                Console.WriteLine(contacts[i]);
+                Console.WriteLine("----------------------");
+            }
+        }
+
+        // UC-6 Add Multiple Contacts
+        public void AddMultipleContacts(int limit)
+        {
+            for (int i = 0; i < limit; i++)
+            {
+                Console.WriteLine("\nEnter details of user " + (i + 1));
+                AddContact();
+            }
+        }
     }
 }
