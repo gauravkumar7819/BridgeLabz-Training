@@ -2,7 +2,7 @@ namespace FitnessApp
 {
     interface IFitnessService
     {
-        void AddUser();
+    void AddUser();
         void UpdateSteps();
         void DisplayLeaderboard();
     }
