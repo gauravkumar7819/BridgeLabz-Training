@@ -398,6 +398,57 @@ https://github.com/gauravkumar7819/BridgeLabz-Training/tree/oops-csharp-practice
 
 
 ---
+## 📅 Day 22 – Tasks  
+Date: 15 January 2026  
+
+### 📝 Tasks Performed
+1. Conducted a complete weekly revision of all concepts learned, including C# fundamentals, OOPS principles, and DSA basics, to strengthen overall understanding.  
+2. Practiced multiple scenario-based problems to apply theoretical concepts in real-world use cases.  
+3. Solved the **Tab History Manager** scenario, focusing on proper use of data structures and object-oriented design.  
+4. Enhanced the **Address Book System** by adding new features and improving existing functionality.  
+5. Refactored code to improve readability, structure, and overall usability of the application.
+---
+## 📅 Day 23 
+Date: 16 January 2026  
+
+### 🔗 Linked Lists
+- Practiced singly and circular linked list operations  
+- Understood traversal and deletion logic  
+### 🎯 Scenario-Based Problems
+- Solved Library Organization and Traffic Manager problems  
+- Applied DSA concepts to real-life scenarios  
+---
+## 📅 Day 24 
+Date: 17 January 2026  
+
+### 🔃 Sorting Algorithms
+- Applied sorting techniques to real-world scenarios  
+- Organized and prioritized data efficiently  
+
+### 🏋️ Fitness Tracker Scenario
+- Built Fitness Tracker App using sorting for ranking data  
+- Analyzed user data using sorted results  
+
+### 🛒 Flash Dealz Scenario
+- Implemented product sorting based on discounts  
+- Prioritized deals using sorting logic  
+
+### 🧠 DSA & OOPS Revision
+- Revised key DSA and OOPS concepts covered so far  
+- Strengthened understanding through practice  
+
+---
+## 📅 Day 25  
+Date: 19 January 2026  
+
+### 🧬 Generics in C#
+- Learned basics of Generics and type safety  
+- Understood reusable and flexible code design  
+
+### 🎯 Scenario-Based Practice
+- Solved Parcel Management System using Generics  
+- Implemented Online Exam System with generic classes  
+
 
 
 ## 📊 **Repository Structure Overview**
