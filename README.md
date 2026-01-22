@@ -449,7 +449,30 @@ Date: 19 January 2026
 - Solved Parcel Management System using Generics  
 - Implemented Online Exam System with generic classes  
 
+## 📅 Day 26  
+Date: 20 January 2026  
 
+### 📚 C# Collections
+- Learned different collection types (List, Dictionary, Stack, Queue, HashSet)  
+- Solved multiple problems using collections  
+
+### 🔄 Backtracking Algorithm
+- Understood recursive backtracking approach  
+- Implemented backtracking-based solutions  
+
+### 🎯 Scenario-Based Practice
+- Solved Aadhar Numbers Sorting problem  
+- Implemented Password Cracker Simulator  
+
+## 📅 Day 27  
+Date: 21 January 2026  
+
+### 💧 C# Streams
+- Learned reading and writing data using streams  
+- Practiced stream-based file handling  
+
+### 🎯 Scenario-Based Practice
+- Built Rank Sheet Generator using streams  
 
 ## 📊 **Repository Structure Overview**
 
