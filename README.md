@@ -473,6 +473,58 @@ Date: 21 January 2026
 
 ### 🎯 Scenario-Based Practice
 - Built Rank Sheet Generator using streams  
+---
+## 📅 Day 28  
+Date: 22 January 2026  
+
+### ⚠️ Exception Handling in C#
+- Learned try-catch, finally, and custom exceptions  
+- Practiced handling runtime errors effectively  
+
+### 📚 Concept Revision
+- Revised Collections, Generics, Streams, and Exceptions  
+- Strengthened core understanding through discussion  
+---
+## 📅 Day 29  
+Date: 23 January 2026  
+
+### 🔄 Weekly Revision
+- Revised Streams, Collections, Generics, and Exceptions  
+- Clarified doubts from previous topics  
+
+### 🧠 Practical Problem Solving
+- Solved multiple coding exercises  
+- Improved implementation skills  
+---
+## 📅 Day 30  
+Date: 27 January 2026  
+
+### 🔍 Regular Expressions (Regex)
+- Practiced pattern matching and validations  
+- Solved text-processing problems  
+
+### 🪞 Reflection & Annotations
+- Applied attributes in real scenarios  
+
+### 🧪 Unit Testing
+- Learned NUnit and MSTest basics  
+- Wrote test cases for validation  
+
+### 🎯 Scenario-Based Projects
+- HealthCheckPro – API validation system  
+- EventTracker – Event management system  
+---
+## 📅 Day 31  
+Date: 28 January 2026  
+
+### 📂 File I/O Programming
+- Learned file reading and writing  
+- Worked with streams and file operations  
+
+## ✔ Status  
+📌 **Training In Progress…**  
+
+
 
 ## 📊 **Repository Structure Overview**
 
