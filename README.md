@@ -521,34 +521,45 @@ Date: 28 January 2026
 - Learned file reading and writing  
 - Worked with streams and file operations  
 ---
-Day 32 – January 29, 2026
-🧩 Topics of the Day
-🌊 Scenario-based Applications – Real-world project implementation
-📄 JSON Data Handling – Understanding structure and basic operations
-🔗 Data Integration – Working with structured data formats
----
-📅 Day 33 – January 30, 2026
-🧩 Topics of the Day
-📚 Weekly Revision – Review of topics covered this week
-🚚 Scenario-based Problem Solving – Applying concepts in real-world context
-✅ Today's Work
-Revised all the topics learned this week
-Solved a scenario-based problem: Lexical Logistics – Implemented real-world logistics 
-Solve problems on JSON data processing and manipulatio
----
-📅 Day 34 – January 31, 2026
-🧩 Topics of the Day
-📄 JSON Data Handling – Reading, writing, and processing JSON in C#
-🚛 Scenario-based Project – Applying concepts to real-world systems
+
+## 📅 Day 32 – January 29, 2026
+
+### 🧩 Topics of the Day
+- 🌊 **Scenario-based Applications** – Real-world project implementation  
+- 📄 **JSON Data Handling** – Understanding JSON structure and basic operations  
+- 🔗 **Data Integration** – Working with structured data formats  
 
 ---
-📅 Day 35 – February 2, 2026
-🧩 Topics of the Day
-🏗️ Design Principles & Patterns – Best practices for maintainable code
-⚡ Async Programming & Multithreading – Efficient and concurrent execution
 
-## ✔ Status  
-📌 **Training In Progress…**  
+## 📅 Day 33 – January 30, 2026
+
+### 🧩 Topics of the Day
+- 📚 **Weekly Revision** – Review of topics covered during the week  
+- 🚚 **Scenario-based Problem Solving** – Applying concepts in real-world contexts  
+
+### ✅ Today's Work
+- Revised all topics learned during the week  
+- Solved **Lexical Logistics** scenario-based problem  
+- Practiced JSON data processing and manipulation problems  
+
+---
+
+## 📅 Day 34 – January 31, 2026
+
+### 🧩 Topics of the Day
+- 📄 **JSON Data Handling** – Reading, writing, and processing JSON in C#  
+- 🚛 **Scenario-based Project** – Applying JSON concepts to real-world systems  
+
+---
+
+## 📅 Day 35 – February 2, 2026
+
+### 🧩 Topics of the Day
+- 🏗️ **Design Principles & Patterns** – Best practices for maintainable code  
+- ⚡ **Async Programming & Multithreading** – Efficient and concurrent execution  
+
+---
+
 
 
 
