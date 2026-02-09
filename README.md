@@ -560,6 +560,66 @@ Date: 28 January 2026
 
 ---
 
+## 📅 Day 36 – February 3, 2026
+
+### 🧩 Topics of the Day
+- 🖥️ **MSSQL Setup** – Installing and configuring SQL Server  
+- 📝 **SQL Queries** – Basic CRUD operations  
+
+
+### ⏭️ Next Focus
+- Learn DBMS concepts and integrate databases with projects  
+
+---
+
+## 📅 Day 37 – February 4, 2026
+
+### 🧩 Topics of the Day
+- 📚 **DBMS Concepts** – Introduction to database management systems  
+- 📝 **SQL Queries** – Practicing queries in SQL Server  
+
+
+### ⏭️ Next Focus
+- Stored procedures, triggers, joins, and advanced SQL concepts  
+
+---
+
+## 📅 Day 38 – February 5, 2026
+
+### 🧩 Topics of the Day
+- 🛠️ **Stored Procedures & Triggers** – Automating database tasks  
+- 🔗 **Joins in SQL** – Combining data from multiple tables  
+- 🗣️ **Mentor Meeting** – Reflection, Annotations, and MSTest  
+
+
+### ⏭️ Next Focus
+- Practice advanced DBMS operations and database-driven projects  
+
+---
+
+## 📅 Day 39 – February 6, 2026
+
+### 🧩 Topics of the Day
+- 🧠 **Soft Skills Training** – Communication and professionalism  
+- 🛠️ **DBMS Concepts** – Triggers, stored procedures, and cascading  
+
+
+---
+
+## 📅 Day 40 – February 7, 2026
+
+### 🧩 Topics of the Day
+- 🔗 **DBMS Integration** – Connecting DB with C# console application  
+- 🗄️ **Database Schema Design** – Structuring healthcare tables  
+- ✏️ **CRUD Operations** – Managing data lifecycle  
+
+
+---
+
+## ✔ Status
+📌 **Training In Progress…**  
+More hands-on projects and advanced topics ahead. 🚀
+
 
 
 
