@@ -615,6 +615,160 @@ Date: 28 January 2026
 
 
 ---
+---
+
+## 📅 Day 45 – February 9, 2026
+
+### 🧩 Topics of the Day
+- 🔌 ADO.NET – Data access and connectivity in C#  
+- 🗂️ Database Schema Design – Healthcare project structure  
+
+### ✅ Today's Work
+- Learned ADO.NET concepts (Connection, Command, Data handling)  
+- Designed and refined Healthcare database schema  
+
+### ⏭️ Next Focus
+- Prepare for mock test covering all learned topics  
+
+---
+
+## 📅 Day 46 – February 10, 2026
+
+### 🧩 Topics of the Day
+- 📝 Mock Test – Timed C# console application  
+- ⚙️ Application Design – End-to-end implementation  
+
+### ✅ Today's Work
+- Designed and implemented a complete C# console app within time limit  
+- Applied Core C#, OOPS, and logical problem-solving skills  
+
+### ⏭️ Next Focus
+- Practice database + ADO.NET scenario-based problems  
+
+---
+
+## 📅 Day 47 – February 11, 2026
+
+### 🧩 Topics of the Day
+- 🏥 Healthcare Project – Planning & initiation  
+- 📚 Address Book System – Final completion  
+
+### ✅ Today's Work
+- Started Healthcare project structure planning  
+- Completed Address Book System with refinements  
+
+### ⏭️ Next Focus
+- Continue Healthcare project development  
+
+---
+
+## 📅 Day 48 – February 12, 2026
+
+### 🧩 Topics of the Day
+- 🏥 Healthcare Project Development  
+- 🗄️ Database Connectivity using ADO.NET  
+
+### ✅ Today's Work
+- Continued implementing Healthcare features  
+- Integrated database operations with ADO.NET  
+
+### ⏭️ Next Focus
+- Complete Healthcare project and begin new project  
+
+---
+
+## 📅 Day 49 – February 13, 2026
+
+### 🧩 Topics of the Day
+- ✅ Healthcare Project Completion  
+- 🚀 New Project Kickoff – TechVilla  
+
+### ✅ Today's Work
+- Finalized and tested Healthcare Project  
+- Initiated TechVilla project structure  
+
+### ⏭️ Next Focus
+- Continue TechVilla development  
+
+---
+
+## 📅 Day 50 – February 14, 2026
+
+### 🧩 Topics of the Day
+- 🏗️ TechVilla Development  
+- 🧠 Project-Based Learning  
+
+### ✅ Today's Work
+- Implemented core features in TechVilla  
+- Integrated database functionalities  
+
+### ⏭️ Next Focus
+- Finalize TechVilla & revise DB concepts  
+
+---
+
+## 📅 Day 51 – February 15, 2026
+
+### 🧩 Topics of the Day
+- 🎯 TechVilla Completion  
+- 🗄️ DBMS & ADO.NET Revision  
+
+### ✅ Today's Work
+- Completed TechVilla project  
+- Revised and strengthened database knowledge  
+
+### ⏭️ Next Focus
+- Start Backend Development (ASP.NET)  
+
+---
+
+## 📅 Day 52 – February 16, 2026
+
+### 🧩 Topics of the Day
+- 📝 M1 Test Revision  
+- 🧠 Concept Reinforcement  
+
+### ✅ Today's Work
+- Revised all Module 1 topics  
+- Practiced sample problems and cleared doubts  
+
+### ⏭️ Next Focus
+- Start ASP.NET & Major Project (Quantity Management App)  
+
+---
+
+## 📅 Day 53 – February 17, 2026
+
+### 🧩 Topics of the Day
+- 🌐 ASP.NET Introduction  
+- 🏗️ Major Project – Quantity Management App  
+
+### ✅ Today's Work
+- Learned ASP.NET basics (structure, controls, events)  
+- Set up project architecture for Quantity Management App  
+
+### ⏭️ Next Focus
+- Continue project development  
+- Explore advanced ASP.NET features  
+
+---
+
+## 📅 Day 54 – February 18, 2026
+
+### 🧩 Topics of the Day
+- 📝 M1 Mock Test  
+- 🏗️ TechVilla Finalization  
+
+### ✅ Today's Work
+- Appeared for Module 1 mock test  
+- Finalized TechVilla project implementation  
+
+### ⏭️ Next Focus
+- Present completed projects  
+- Gather feedback and improve  
+
+---
+
 
 ## ✔ Status
 📌 **Training In Progress…**  
