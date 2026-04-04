@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-
+namespace AddressBookSystem{
 internal class AddressBook
 {
     public string Name { get; private set; }
@@ -10,4 +10,5 @@ internal class AddressBook
         Name = name;
         Contacts = new List<Contact>();
     }
+}
 }

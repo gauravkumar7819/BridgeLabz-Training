@@ -1,4 +1,6 @@
-﻿internal class AddressBookMenu
+﻿using AddressBookSystem.Interface;
+namespace AddressBookSystem.Menu{
+    internal class AddressBookMenu
 {
     private readonly IAddressBook addressBookUtility = new AddressBookUtility();
 
@@ -53,4 +55,5 @@
             }
         }
     }
+}
 }

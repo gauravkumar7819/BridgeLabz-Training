@@ -1,4 +1,5 @@
-﻿internal class Contact
+﻿namespace AddressBookSystem{
+internal class Contact
 {
     public string FirstName { get; set; }
     public string LastName { get; set; }
@@ -24,4 +25,5 @@
     {
         return $"First Name: {FirstName}, Last Name: {LastName}, City: {City}, State: {State}, Zip: {ZipCode}, Phone: {PhoneNumber}, Email: {Email}";
     }
+}
 }
